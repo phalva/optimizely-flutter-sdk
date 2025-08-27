@@ -24,10 +24,10 @@ rootProject.allprojects {
 
 
 ext {
-    compile_sdk_version = 32
-    build_tools_version = "30.0.3"
+    compile_sdk_version = 35
+    build_tools_version = "34.0.0"
     min_sdk_version = 21
-    target_sdk_version = 29
+    target_sdk_version = 35
 }
 
 android {
@@ -47,8 +47,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     packagingOptions {
         exclude 'androidsupportmultidexversion.txt'

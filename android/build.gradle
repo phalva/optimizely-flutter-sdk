@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.optimizely.optimizely_flutter_sdk'
-version '1.0'
+version '1.0.1'
 
 def version_name = System.getenv('TRAVIS_TAG')
 if (version_name != null) {
